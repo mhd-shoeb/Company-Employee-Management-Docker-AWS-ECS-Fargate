@@ -8,30 +8,7 @@ The application displays a Company Employee Management landing page and provides
 
 ## Architecture
 
-```text
-Developer
-   |
-   v
-Python Flask Application
-   |
-   v
-Docker Image
-   |
-   v
-Amazon ECR
-   |
-   v
-Amazon ECS
-   |
-   v
-AWS Fargate
-   |
-   v
-Running Container
-   |
-   v
-Web Browser
-```
+<img width="1920" height="819" alt="ECS Fargate Container Deployment Architecture" src="https://github.com/user-attachments/assets/8204d7bc-cef3-4350-9d16-3e8d93351677" />
 
 ## Technologies Used
 
