@@ -86,7 +86,7 @@ docker run -d -p 5000:5000 company-pp:v1
 ```bash
 docker images
 docker ps -a
-if docker container exited then execute - docker start "container name"
+container exited state then execute - docker start "container name"
 ```
 
 Open:
