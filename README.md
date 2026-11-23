@@ -71,19 +71,22 @@ company-ecs-project/
 ### 1. Build Docker Image
 
 ```bash
-docker build -t company-app:v1 .
+docker build -t company-pp:v1 .
+(note: . will use current directory as build context)
 ```
 
 ### 2. Run Container Locally
 
 ```bash
-docker run -d -p 5000:5000 company-app:v1
+docker run -d -p 5000:5000 company-pp:v1
 ```
 
 ### 3. Verify Container
 
 ```bash
-docker ps
+docker images
+docker ps -a
+if docker container exited then execute - docker start "container name"
 ```
 
 Open:
@@ -140,6 +143,9 @@ Health check:
 
 ```text
 http://<PUBLIC-IP>:5000/health
+```
+```text
+goto ECS => cluster => select services => open company-service => open task tab => click running ID => find networking section look for public IP.
 ```
 
 ## Expected Output
