@@ -53,9 +53,6 @@ company-ecs-project/
 ├── app.py
 ├── requirements.txt
 ├── Dockerfile
-├── .dockerignore
-├── .gitignore
-├── README.md
 └── templates/
     └── index.html
 ```
@@ -174,18 +171,5 @@ Health endpoint:
 6. Configuring IAM execution permissions.
 7. Configuring VPC networking and security groups.
 8. Accessing and validating a deployed cloud application.
-
-## Future Improvements
-
-- Add an Application Load Balancer.
-- Configure HTTPS using AWS Certificate Manager.
-- Integrate Amazon CloudWatch monitoring.
-- Add an RDS database.
-- Implement ECS service auto scaling.
-- Automate infrastructure deployment using Terraform or CloudFormation.
-
-## Author
-
-Cloud & DevOps Hands-on Project
 
 **Note:** This is a learning project demonstrating Docker containerization and AWS ECS Fargate deployment.
